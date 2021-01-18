@@ -1,0 +1,31 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19.2px;
+    margin: 0;
+}
+.Container li a {
+        color: #000000;;
+        text-decoration: none
+}
+.Container li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 70px;
+}
+@media only screen and (max-width: 600px){
+    section {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+li{
+    padding: 25px;
+}
+.Push{
+    float: right;
+}   
+h2{
+    text-align: center;
+    margin-bottom:50vh;
+}
