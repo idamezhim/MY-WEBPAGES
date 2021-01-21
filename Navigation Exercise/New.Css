@@ -1,5 +1,6 @@
 body{
     margin: auto 0;
+    font-family: Arial;
 }
 .zone {
     /*padding: 30px 50px;
@@ -18,6 +19,12 @@ body{
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.box:hover {
+    -webkit-transform: rotate(-7deg);
+    -mozwebkit-transform:rotate(-7deg);
+    -owebkit-transformw:rotate(-7deg);
+    boxwebkit-transformwrotate(-7deg);
 }
 /* NAV */
 .sticky {
